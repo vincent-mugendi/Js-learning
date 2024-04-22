@@ -6,15 +6,44 @@ VARIABLES AND SCOPING
 Variables in ES6 are declared using:
 	1. var can acessed outside scope where it declared
 	2. let allows variables to be used only in the scope where they are declared
-	
 
+	let example
+	-----------
+	var x = 10;
+	// Here x is 10
+	{
+  		let x = 2;
+  		// Here x is 2
+	}
+	// Here x is 10
 
 
 const keyword
 -----------------------
 Used to declare a variable whose value cannot be reasigned
-
+constants are also like let, can only be used within a block scope
+use const keyword to declare them
+	example
+	-------
+		const pi = 3.14;
 
 
 this keyword
 --------------------
+
+
+Arrow function
+--------------
+Allows short syntax for writing function expressions
+they are not suited for defining object methods.
+
+In arrow functions you DONT need:
+	1. funcion keyword
+	2. return keyword
+	3. {} curly braces
+
+	example
+	--------
+	const x = (x,y) => x * y; //declared a function in a variable x that takes two parameters, x and y, 
+								and returns their product (x * y)
+	
