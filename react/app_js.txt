@@ -1,0 +1,11 @@
+
+
+use className instead of class to use html classes
+
+Starts by importing react
+	import React from 'react';
+
+Then the main App component
+
+We have to export evry component so that we can call them somewhere else
+	export default App;

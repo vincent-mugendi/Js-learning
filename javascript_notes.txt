@@ -1,0 +1,371 @@
+Js
+
+NOTE:
+Js is case sensitive
+camelCase is typically used
+Strings are immutable meaning they cannot be altered once they are created
+this means you cannot change characters in astring but you can change the whole string
+
+Comments
+// - inline comments
+/* This
+multiline comment */
+
+Data types
+1. undefined
+hasnt been defined
+like a variable without a value
+
+2. null
+nothing
+
+3. boolean
+True or False
+
+4. String
+characters
+
+5. Symbol
+Immutable unique value
+
+6. Number
+numbers
+	floats
+		numbers with decimals (5.6)
+	
+7. Object
+can store different data types
+
+
+Variables
+Use var keyword
+Exmple
+	var myNmae = "Vincent"
+use let keyword
+Example
+	let my Nmae = "Vincent"
+use const keyword
+Example
+	let const pi = 3.14
+
+Difference between var, let and const
+var can be used within your whole program
+let can only be used where it is declared
+const once set cannot be changed
+
+Asigning Values
+use the = (asignment) operator
+Example
+	var a = 9; //Declared a variable a and assigned a value of 9
+
+Calculations
+1. Addition = +
+2. Subtraction = -
+3. Multiplication = *
+4. Division = /
+5. Increment = ++
+6. Decrement = --
+7. Remainder/modulus = %
+
+
++= operator, -= operator, *= operator, /= operator
+Example
+	instead of:
+		a = a + 7;
+		a = a - 7;
+		a = a * 7;
+		a = a / 7;
+	use +=:
+		a += 7;
+		a -= 7;
+		a *= 7;
+		a /= 7;
+
+
+Declaring string variables
+use ""
+
+Escaping literal Quotes in Strings
+This when a string continas quotes
+use escape character \
+example:
+	var string = "This is a \"double quote\""
+
+you can also use quotes mixture
+Example:
+	var string = 'This is a "double quote"
+
+You can also use backtick `
+Example
+	var string = "This is a `"double quote`""
+
+ESCAPE characters
+\' - escape single quote
+\" - double quotes
+\\ - backslash
+\n - newline
+\r - carriage return
+\t - tab
+\b - backspace
+\f - form feed
+
+
+CONCATENATING Strings
+Use the + operator
+Example:
+	var greeting = "Hello";
+	var  name = "John";
+	var welcome = "Hello" + "John";
+
+You can also use += operator
+
+FIND THE LENGTH OF THE String
+Use .length property
+Example:
+	var joke = "Is this a joke";
+	console.log(joke.length);
+
+FINDING CHARACTER IN THE String
+use the bracket notation
+Example:
+	var name = "John";
+	console.log(name[0]); //will log J
+
+
+FINDING THE Nth CHARACTER IN A String
+Use the bracket notation
+Example:
+	var name = "John";
+	//lets say i want to get the 3rd character in the string
+	console.log(name[2]);
+
+FINDING THE LAST CHARACTER IN A STRING 
+Find the length
+Then minus 1 from the length
+then use bracket notation
+Example:
+	var str = "This is a string";
+	console.log(str.length);
+	console.log(str[value of str.length - 1]);
+
+
+ARRAYS
+Declared like variables with values in square brackets
+values can be any data type
+Example:
+	var shopping = ["Mangoes", 4, "Tissue"];
+
+NESTED ARRAYS
+Refers to array within an array
+Example:
+	var ingredients = [["Flour", "Sugar", "Cinnamon"], ["eggs", "milk", "butter"]];
+
+ACCESSING DATA IN ARRAYS
+Use square bracket notation
+Example:
+	var numbers = [1, 2, 3];
+	console.log(numbers[0]) //to get the first element of the array
+
+
+MODIFYING ARRAYS
+Use index to modify arrays
+
+ADDING DATA TO AN ARRAY
+Use push function
+Example:
+	var colors = ["Red", "Blue", "Orange"];
+	//lets add green to the colors
+	colors.push("green");
+
+REMOVING THE LAST ELEMENT IN THE ARRAY
+Use the pop function
+Example:
+	var colors = ["Green", "Red", "Pink"]
+	colors.pop(); // Pink is removed
+
+
+REMOVING THE FIRST ELEMENT OF AN ARRAY
+use the shift function
+Example:
+	var numbers = [1, 2, 3, 4];
+	numbers.shift() //removes 1
+
+
+
+MANIPULATING THE ARRAY WITH THE UNSHIFT function
+Unshift adds an element to the beginning of an array
+Example:
+	var pupils = ["John", "Ann", "Paul", "Peter"];
+	pupils.unshift("Jane"); // adds jane to the front of the array
+
+========================================
+FUNCTIONS
+======================
+Declared using the keyword function
+SYNTAX:
+	function functionName(){
+		// function code goes here
+	}
+
+Example:
+	function greeting(){
+		console.log("Hello, there!");
+	}
+
+	greeting(); // calling the function
+
+
+FUNCTION PARAMETERS
+Refers to data paased into functions as arguments
+Example:
+	function Addition(a, b){
+		console.log(a + b);
+	}
+
+	Addition(2, 3); // 5 is logged out
+
+GLOBAL Variables
+Are variables which are defined outside the functions and those that are defined inside the functions BUT without the var keyword
+
+RETURN STATEMENTS
+Are used  to return values from a function
+Example:
+	function sayHi(){
+		return ("Hi!");
+	}
+	console.log(sayHi()); // will log Hi!
+
+QUEUE
+	A data structure where items are added in order
+
+
+USING BOOLEAN
+Boolean values are true or False
+
+IF ELSE STATEMENTS
+Used to make decisions in code
+Example:
+	var number = 1;
+	if (number < 5){
+		console.log("True");
+	}
+	else {
+		console.log("False")
+	}
+
+
+OPERATORS
+== :Equals operator
+=== :Strict equals operator
+
+!= :Not Equals operator
+!== :Strict not equals operator
+
+> :Greator than
+< :Less than
+
+>= :Greator than or equal to
+<= :Less than or equal to
+
+&& :and operator
+|| :OR operator
+
+
+ELSE IF STATEMENT
+Example:
+var number = 5;
+if (number > 3) {
+	console.log("Greator than 3");
+} else if (number == 5) {
+	console.log("The number is 5");
+} else {
+	console.log("The number is not greator than 3 and is not equals to 5);
+}
+
+
+SWITCH STATEMENTS
+Can be used in place of if statement 
+
+
+
+OBJECTS
+Are similar to arrays but instead of using index to acces data you use properties
+Properties can be any value.
+we use . to access property values
+use [] brackets to access values of properties with a space in them (eg "my age":)
+Example:
+	var student = {
+		"name": "John",
+		"grade": 6,
+		"class": "North"
+	}
+
+	console.log(student.name); //will log John
+
+UPDATING OBJECT Properties
+Use . notation to update
+Example:
+	var pen = {
+		"brand": "speedo",
+		"color": "black",
+		"price": 20
+	}
+
+	pen.brand = "Bic";
+	console.log(pen.brand); // will log Bic 
+
+
+ADDING OBJECT Properties
+Use . notation or [] brackets
+Example:
+	var book = {
+		"brand": "Kasuku",
+		"lines": "ruled",
+		"price": 20
+	}
+
+	book.pages = "200";
+
+DELETING OBJECT Properties
+Use delete keyword
+Example: 
+	var pen = {
+		"brand": "speedo",
+		"color": "black",
+		"price": 20
+	}
+
+	delete pen.price;
+
+CHECKING OBJECT Properties
+Use hasOwnProperty() method
+returns true or False
+Example:
+	var pen = {
+		"brand": "speedo",
+		"color": "black",
+		"price": 20
+	}
+
+	function checkPenProperties(property) {
+		if (pen.hasOwnProperty(property)) {
+			console.log("Property Present");
+		} else {
+			console.log("Property Absent");
+		}
+	};
+	
+	checkPenProperties("color");
+
+
+
+MANIPULATING COMPLEX OBJECTS
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+Hooks
+Are functions
+Start with the name use
+
+--------------
+useState
+-----------------
+Used to handle react of data
+Any data that changes in the application is called state
+When changes in the data occur you want react to update the UI
+useState takes only 1 argument:	
+	the default state
+	useState(0)
+
+The useState function returns an array with 2 values
+	const [count, setCount] = useState(0)
+
+
+rules for using useState hook
+-----------------------------------------
+Can only be used inside function components
+Cannot be used inside of ifs, loops, functions
+
+
+USING useState hook
+-------------------------------
+1. Import the hook
+	import React, { useState } from 'react';
+
+2. call it
+	useState
+
+3. set default
+	useState(0)
+
+4. set array of values the useState will return
+	const [count, setCount] = useState(0)
+	count = current state, can be called anyhting
+	setCount = updating the current state, also can be called anything
+
+5.  Use the useState hook by setting curent state:
+	<button>-</button>
+	<span>{count}</span>
+	<button>+</button>
+
+6. make the current state update:
+	maybe add a click event handler
+	<button onClick={minusCount}>-</button>
+	<span>{count}</span>
+	<button onClick={addCount}>+</button>
+
+7. create the fucntions to handle events
+	function minusCount() {
+		setCount(prevcount => prevcount - 1)
+	}
+	function addCount() {
+		setCount(prevcount => prevcount + 1)
+	}
+
+
+8. 
+
+

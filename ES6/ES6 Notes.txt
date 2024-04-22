@@ -1,0 +1,20 @@
+ES6 NOTES
+
+
+VARIABLES AND SCOPING
+---------------------------------------------
+Variables in ES6 are declared using:
+	1. var can acessed outside scope where it declared
+	2. let allows variables to be used only in the scope where they are declared
+	
+
+
+
+const keyword
+-----------------------
+Used to declare a variable whose value cannot be reasigned
+
+
+
+this keyword
+--------------------

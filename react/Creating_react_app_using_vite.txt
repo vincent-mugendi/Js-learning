@@ -1,0 +1,28 @@
+CREATING REACT APP USING VITE
+----------------------------------------------------
+1. Make sure Node,js is installled
+2. run command "npm create vite@latest"
+	will install vite (which installs smaller modules and is faster than using create-react-app (CRA)
+3. Install 3rd party dependancies
+	run:
+		npm i
+4. run web server
+	run:
+		npm run dev
+
+
+
+-------------------------------------------
+CREATING COMPONENTS
+-------------------------------------------
+Use PascalCasing to name your components
+1. Create a javascript file
+2. Create the function component
+	function Greeting() {
+		return (
+			<h1>Hello Wolrd</h1>
+		)
+	}
+
+3. Dont forget to export:
+	export default ComponentName

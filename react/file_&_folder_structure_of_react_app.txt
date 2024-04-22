@@ -1,0 +1,17 @@
+Has 3 folders and 4 files in the parent prohect directory:
+
+	1. node_modules
+		This is where the 
+
+	2. public folder
+
+	3. src folder
+		This is where all the logic goes
+
+	4. .gitignore file
+		This file contains a list of files and folders you dont want to commit when using git
+
+	5. package.json file
+		This file contains a list of all the apckages and depencies your app will be using
+
+	6. 

@@ -1,0 +1,2 @@
+State in react is a plain Javascript object
+It is used by react to represent piece of information about the components current situation

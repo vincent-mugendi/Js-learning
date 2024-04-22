@@ -1,0 +1,18 @@
+CREATING A REACT APP
+=======================
+
+1. Make sure node.js is installed
+	Node.js is a Js runtime that allows to execute Js code on the server
+
+2. Create a folder
+	This is where the project will be
+
+3. Open the folder in Vs, or your prefered coding environment
+
+4. Run "npx create-react-app ./" command
+	This command install primary react packages into your project folder
+5. Run your app
+	use command: npm start
+	
+
+
