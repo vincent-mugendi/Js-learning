@@ -11,7 +11,7 @@ Welcome to my JavaScript learning repository! This repository serves as a collec
 - [Contributing](#contributing)
 - [License](#license)
 
-## About
+## About (#about)
 
 In this repository, you will find my notes on JavaScript fundamentals, advanced topics, and various libraries and frameworks. I also include practical exercises and projects to reinforce my learning.
 
