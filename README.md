@@ -1,4 +1,5 @@
 # JavaScript Learning Repository
+![Js handmade logo animation gif](https://camo.githubusercontent.com/937d48ac2c75b5f2a207a383d1f559fdab46bf1c00e8d59eb6107d8b7234a88c/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313236302f312a2d744f6c644562666a696a786e3956715a65554c71672e676966)
 
 Welcome to my JavaScript learning repository! This repository serves as a collection of my notes, practice exercises, and learning resources for JavaScript and related technologies like React and ES6.
 
