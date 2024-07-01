@@ -1,2 +1,2 @@
-index,js in src
+index.js in src
 It's the starting point of every react application
