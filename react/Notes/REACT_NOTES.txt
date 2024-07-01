@@ -1,0 +1,53 @@
+PREPARING THE DEVELOPMENT ENVIRONMENT
+=====================================
+
+    INSTALLING NODE.js
+    ==================
+    Node is a js efficient runtime for server-side applications
+    install node from  https://nodejs.org/dist/v10.14.1
+
+        Checking node version
+        ======================
+        node -v
+
+        Node Package Manger (NPM)
+        ========================
+        used to manage node packages
+        npm -v //to check npm version
+
+    
+    INSTALLING CREATE-REACT-APP Package
+    ==================================
+    use npm install --global create-react-app //this installs react globally
+
+
+CREATING A REACT PROJECT
+========================
+use npx create-react-app appname
+
+
+PROJECT STRUCTURE
+=================
+You will have:
+
+    1. node_modules folder
+    =====================
+    will contain all react dependancy files
+
+    2. public folder
+    ===============
+    will have index.html
+    This is the file that is 1st loaded by the browser
+
+
+    3. src folder
+    =============
+    This is where you'll work 
+    contains all your code and App.js, index,js
+    App.js This is react component that contains HTML content that will be displayed to the user
+    index.js is for configuring and starting the React app
+
+
+STARTING THE DEV TOOLS
+======================
+use npm start
