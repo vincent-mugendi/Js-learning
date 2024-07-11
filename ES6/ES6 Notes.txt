@@ -47,3 +47,31 @@ In arrow functions you DONT need:
 	const x = (x,y) => x * y; //declared a function in a variable x that takes two parameters, x and y, 
 								and returns their product (x * y)
 	
+Template Literals
+------------------
+Template literals allows us to use backticks to add strings
+For example
+-------------
+	in older js
+	-----------
+	lets add string1 with string2
+	let string1 = 'Vincent';
+	let string2 = 'Mugendi';
+
+	const fullname = string1 + " " + string2;
+
+	using template literals
+	-----------------------
+	const fullname = `$(string1) $(string2)`;
+
+DESTRUCTURING OBJECTS
+---------------------
+Helps us to reassign values
+
+
+DESTRUCTURING ARRAYS
+--------------------
+
+
+OBJECT Literals
+---------------
