@@ -1,0 +1,38 @@
+VIRTUAL DOM
+============
+It acts as a layer between the developers code and browser rendered content
+DOM = Document Object Model
+
+RENDERING LIFECYCLE
+===================
+Page renders => Mount React Component to the DOM => Render React Component
+State/props chnage => Compute diff in Virtual DOM => Rerender React component
+
+
+SETTING UP ENVIRONMENT
+=====================
+
+1. Install create-react-native-app package from npm
+----------------------------------------------------
+use: npm install -g create-react-native-app
+
+2. Creating your application
+------------------------------
+use: create-react-native-app project-name
+This creates boilerplate for your app
+
+    Files Created
+    -------------
+    package.json - metadata about the project and its dependancies
+    README.md - contains info on running the project
+    App.test.js - includes a simple test file
+    App.js - the code for your application
+
+3. Previewing the App on iOS or Android
+---------------------------------------
+cd project-name
+npm start
+
+4. Make sure you install Expo App
+---------------------------------
+Go to playstore and install expo app

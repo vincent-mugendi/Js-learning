@@ -44,7 +44,7 @@ You will have:
     =============
     This is where you'll work 
     contains all your code and App.js, index,js
-    App.js This is react component that contains HTML content that will be displayed to the user
+    App.js = This is react component that contains HTML content that will be displayed to the user
     index.js is for configuring and starting the React app
 
 
