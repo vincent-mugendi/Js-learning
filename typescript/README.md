@@ -20,7 +20,7 @@ To get started with learning Typescript, you can explore the contents of this fo
 
 ## Usage
 
-Feel free to use the notes and examples in this folder for your own learning purposes. You can also incorporate Typescript into your projects to build interactive user interfaces. If you have any questions or suggestions, please open an issue or submit a pull request.
+Feel free to use the notes and examples in this folder for your own learning purposes. If you have any questions or suggestions, please open an issue or submit a pull request.
 
 ## Contributing
 
