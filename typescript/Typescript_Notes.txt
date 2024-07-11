@@ -1,0 +1,10 @@
+INTRO
+-----
+Is a static extension to javascript
+
+WHY USE TYPESCRIPT INSTEAD OF VANILLA JS
+----------------------------------------
+    1. Errors not in runtime
+    ------------------------
+    yousee errors in transpatent mode and not in runtime
+    meaning in your editor
