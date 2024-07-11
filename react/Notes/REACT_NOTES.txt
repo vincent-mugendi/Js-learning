@@ -1,3 +1,13 @@
+INTRO
+=====
+react.js is a front-end JavaScript library for building UIs
+Developed by Facebook
+Its open-source
+Cross-platform support
+
+
+
+
 PREPARING THE DEVELOPMENT ENVIRONMENT
 =====================================
 
