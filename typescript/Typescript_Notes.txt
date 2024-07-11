@@ -1,6 +1,8 @@
 INTRO
 -----
 Is a static extension to javascript
+typescript CANT be run directly inside browsers, they dont support it
+
 
 WHY USE TYPESCRIPT INSTEAD OF VANILLA JS
 ----------------------------------------
@@ -8,3 +10,20 @@ WHY USE TYPESCRIPT INSTEAD OF VANILLA JS
     ------------------------
     yousee errors in transpatent mode and not in runtime
     meaning in your editor
+
+    2. Has entities
+    ---------------
+
+SETTING UP TYPESCRIPT AND TOOLS
+-------------------------------
+1. Install node JS
+    visit nodejs.org to download and then install
+
+2. Checking if you have node installed
+    use: node -v command
+
+3. Install typescript
+    use: npm i -g typescript
+
+4. Check if typescript is installed
+    use: tsc -v
