@@ -150,15 +150,13 @@ Tips to Never Lose a Task on Arrow Functions
 2. **Know the Differences**: Be aware of how `this` and `arguments` behave differently in arrow functions.
 3. **Use Arrow Functions Appropriately**: Use them for shorter functions, especially in callbacks or when you need to preserve the `this` context.
 
-With practice and these tips, you'll become proficient in using arrow functions in JavaScript!
-
 
 =============================
 
 ==========================
-Absolutely! Let's delve deeper with more examples and practice problems to solidify your understanding of arrow functions in JavaScript.
 
-### More Examples
+More Examples
+==============
 
 1. **Using Arrow Functions with Array Methods**
 
