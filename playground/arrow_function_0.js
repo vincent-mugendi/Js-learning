@@ -17,3 +17,15 @@ console.log(multiply(5, 5));
 // }
 
 
+const isEven = num => num % 2 === 0;
+console.log(isEven(13));
+
+
+
+//   Traditional function:
+// function sayHello(name) {
+//   return `Hello, ${name}!`;
+// }
+
+const sayHello = name => `Hello, ${name}!`;
+console.log(sayHello("Vincent"))

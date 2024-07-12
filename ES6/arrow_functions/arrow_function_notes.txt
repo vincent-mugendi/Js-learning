@@ -123,36 +123,28 @@ Practice Problems
   const multiply = (a, b) => a * b;
 
   -----------------------------
+  
+  Traditional function:
+    function isEven(num) {
+      return num % 2 === 0;
+    }
 
-Traditional function:
+  Arrow function:
+    const isEven = num => num % 2 === 0;
 
-```javascript
-function isEven(num) {
-  return num % 2 === 0;
-}
-```
+  ------------------------------
 
-Arrow function:
+  Traditional function:
+    function sayHello(name) {
+      return `Hello, ${name}!`;
+    }
 
-```javascript
-const isEven = num => num % 2 === 0;
-```
+  Arrow function:
+    const sayHello = name => `Hello, ${name}!`;
 
-Traditional function:
 
-```javascript
-function sayHello(name) {
-  return `Hello, ${name}!`;
-}
-```
-
-Arrow function:
-
-```javascript
-const sayHello = name => `Hello, ${name}!`;
-```
-
-### Tips to Never Lose a Task on Arrow Functions
+Tips to Never Lose a Task on Arrow Functions
+============================================
 
 1. **Understand the Syntax**: Practice converting traditional functions to arrow functions and vice versa.
 2. **Know the Differences**: Be aware of how `this` and `arguments` behave differently in arrow functions.
