@@ -278,7 +278,7 @@ Have no names
 
 2. callback functions
 ---------------------
-function in a function
+function paased in another function as a parameter.
 	e.g
 	setTimeout(function() {
 		return 'hi'
