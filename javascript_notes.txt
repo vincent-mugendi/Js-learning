@@ -260,6 +260,48 @@ Example:
 
 	Addition(2, 3); // 5 is logged out
 
+
+TYPES OF FUNCTIONS
+==================
+1. Anonymous functions
+----------------------
+Have no names
+	e.g
+	function() {
+		return 'Hello'
+	}
+
+	- They are ussually assigned to a variable:
+	const sayHello = function() {
+		return 'Hello'
+	}
+
+2. callback functions
+---------------------
+function in a function
+	e.g
+	setTimeout(function() {
+		return 'hi'
+	})
+
+3. Named functions
+------------------
+Are Named
+	function sayHi() {
+		return 'hi'
+	}
+
+4. Object methods
+-----------------
+functions inside an object
+	const person = {
+		'name': 'Vincent',
+		sayHi: function() { return 'hi'}
+	}
+
+5. generator functions
+----------------------
+
 GLOBAL Variables
 ====================
 Are variables which are defined outside the functions and those that are defined inside the functions BUT without the var keyword
