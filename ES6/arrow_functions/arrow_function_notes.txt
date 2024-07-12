@@ -4,6 +4,11 @@ ARROW FUNCTIONS
 - Introduced in ES6 (ECMAScript 2015)
 - offer a shorter syntax compared to traditional function expressions.
 
+- are expressions rather than declarations
+- meaning you take a function and express it on a variable
+    const functionName = () => expression;
+
+
 Basic Syntax
 =============
   const functionName = (parameters) => {
