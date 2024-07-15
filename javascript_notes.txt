@@ -299,8 +299,10 @@ functions inside an object
 		sayHi: function() { return 'hi'}
 	}
 
-5. generator functions
+5. constructor functions
 ----------------------
+functions used to create object
+
 
 GLOBAL Variables
 ====================
