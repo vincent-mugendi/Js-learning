@@ -450,16 +450,22 @@ Example:
 	
 	checkPenProperties("color");
 
+OBJECT METHODS
+==============
+Are functions in an object:
+e.g
+	const dog = {
+		name: 'Skippy',
+		bark() {
+			console.log('Woof');
+		}
+	}
 
 
-MANIPULATING COMPLEX OBJECTS
-==============================
 
-
-
-
-
-
+this KEYWORD
+============
+- 
 
 
 
