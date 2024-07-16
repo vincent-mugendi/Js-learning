@@ -10,3 +10,14 @@ dog.bark = function () {
 }
 
 console.log(dog)
+
+// add another method called sit
+dog.sit = function() {
+    console.log("Sitted")
+}
+
+console.log(dog)
+
+// call sit method
+console.log(dog.sit)
+
