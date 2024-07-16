@@ -301,7 +301,8 @@ functions inside an object
 
 5. constructor functions
 ----------------------
-functions used to create object
+functions used to create objects
+Start with Capital letter
 
 
 GLOBAL Variables
@@ -467,8 +468,9 @@ e.g
 
 this KEYWORD
 ============
-- is a keyword used to reference an object or a function
-- 
+- is a js keyword
+- used to reference an object or a function
+
 
 
 
