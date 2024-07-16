@@ -467,7 +467,8 @@ e.g
 
 this KEYWORD
 ============
-- 
+- is a keyword used to reference an object or a function
+
 
 
 
