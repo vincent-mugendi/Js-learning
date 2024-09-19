@@ -151,6 +151,13 @@ Example:
 
 You can also use += operator
 
+
+TEMPLATE STRINGS
+================
+
+INTERPOLATION
+=============
+
 FIND THE LENGTH OF THE String
 ============================
 Use .length property
