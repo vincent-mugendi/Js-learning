@@ -41,6 +41,13 @@ numbers
 7. Object
 	can store different data types
 
+Finding the type of data
+========================
+use typeof() function
+Example:
+	num = 34;
+	typeof(num) // is integer
+
 
 VARIABLES
 ==========
