@@ -93,6 +93,15 @@ Example
 		a *= 7;
 		a /= 7;
 
+ROUNDING numbers
+================
+use Math.round() function
+Example:
+	num = 23.67;
+	Math.round(num) //will round to 24
+
+
+
 
 DECLARING STRING VARIABLES
 ==========================
