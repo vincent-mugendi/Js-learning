@@ -154,6 +154,19 @@ You can also use += operator
 
 TEMPLATE STRINGS
 ================
+- instead og " we use ` backtick
+- example:
+	var string = `This is a template string`
+
+- They are immutable
+-example:
+	string[0] = t;
+
+- They have multiline option
+- example:
+	var string = `This is a
+	multiline`
+
 
 INTERPOLATION
 =============
