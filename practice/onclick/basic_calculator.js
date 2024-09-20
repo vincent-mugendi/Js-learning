@@ -1,1 +1,3 @@
-let input = 0;
+let input = '';
+
+let result;
