@@ -8,24 +8,24 @@
   <body>
     <h1>Cart Quantity</h1>
     <button
-    onclick="console.log(cartQuantity)">
+    onclick="console.log(`Cart Quantity is: ${cartQuantity}`)">
     Show Quantity</button>
 
     <button onclick="
     cartQuantity ++;
-    console.log(cartQuantity)">Add to cart</button>
+    console.log(`You added 1 item. Cart Quantity is now: ${cartQuantity}`)">Add to cart</button>
 
     <button onclick="
     cartQuantity += 2;
-    console.log(cartQuantity)">+2</button>
+    console.log(`You added 2 items so the cart quantity is now: ${cartQuantity}`)">+2</button>
 
     <button onclick="
     cartQuantity += 3;
-    console.log(cartQuantity)">+3</button>
+    console.log(`You added 3 items. The cart quantity is now: ${cartQuantity}`)">+3</button>
 
     <button onclick="
     cartQuantity = 0;
-    console.log(cartQuantity)">Reset Cart</button>
+    console.log(`You ahve reset cart quantity to: ${cartQuantity}`)">Reset Cart</button>
 
     <script src="./script.js"></script>
   </body>
