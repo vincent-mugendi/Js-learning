@@ -508,4 +508,10 @@ this KEYWORD
 
 
 
+onclick attribute
+=================
+- added at html elements as an attribute, 
+- used to define what happens when an element is clicked
+
+
 
