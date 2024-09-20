@@ -158,9 +158,7 @@ TEMPLATE STRINGS
 - example:
 	var string = `This is a template string`
 
-- They are immutable
--example:
-	string[0] = t;
+- You can insert values into them (interpolation)
 
 - They have multiline option
 - example:
