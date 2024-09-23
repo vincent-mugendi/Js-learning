@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+
+    <!-- CSS -->
+     <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+    <h2>RULES</h2>
+    <ul>
+        <li>Rock beats Scissors</li>
+        <li>Paper beats rock</li>
+        <li>Scissors beats Paper</li>
+    </ul>
+
+    <h3>Choose to win:</h3>
+    <button id="rock" onclick="
+    const randomnum = Math.random();
+    
+    if (randomnum > 0 && randomnum < 1/3) {
+        alert('You chose rock computer chose rock, it\'s a TIE')
+    } else if (randomnum > 1/3 && randomnum < 2/3) {
+        alert('You chose rock, the computer chose paper, you WIN!')
+    } else if (randomnum > 2/3 && randomnum < 1) {
+        alert('You chose rock, the computer chose Scissors, you WIN!')
+    }">Rock</button>
+
+    <button id="paper" onclick="
+    const randomnum = Math.random();
+    
+    if (randomnum > 0 && randomnum < 1/3) {
+        alert('You chose paper computer chose rock, you WIN!')
+    } else if (randomnum > 1/3 && randomnum < 2/3) {
+        alert('You chose paper, the computer chose paper, it\'s a TIE!')
+    } else if (randomnum > 2/3 && randomnum < 1) {
+        alert('You chose paper, the computer chose Scissors, computer WIN!')
+    }">Paper</button>
+
+    <button id="scissors" onclick="
+    const randomnum = Math.random();
+    
+    if (randomnum > 0 && randomnum < 1/3) {
+        alert('You chose scissors computer chose rock, computer WON!')
+    } else if (randomnum > 1/3 && randomnum < 2/3) {
+        alert('You chose scissors, the computer chose paper, you WIN!')
+    } else if (randomnum > 2/3 && randomnum < 1) {
+        alert('You chose scissors, the computer chose Scissors, it\'s a TIE')
+    }">Scissors</button>
+    
+
+    <!-- SCRIPTS -->
+    <script src="./rps.js"></script>
+</body>
+</html>

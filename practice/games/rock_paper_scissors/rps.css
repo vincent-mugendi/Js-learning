@@ -1,0 +1,31 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    margin: 20px 20px;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+button {
+    background-color: rgb(13, 146, 13);
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(9, 101, 9);
+}

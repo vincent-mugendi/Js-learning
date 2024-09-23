@@ -384,7 +384,10 @@ OPERATORS
 	- compares for equality without converting
 
 != :Not Equals operator
+	- converts 1st
+
 !== :Strict not equals operator
+	- compares as is
 
 > :Greator than
 < :Less than
