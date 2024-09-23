@@ -378,7 +378,10 @@ Example:
 OPERATORS
 =============
 == :Equals operator
+	- converts the values being compared to same data type 1st, then compares fro equality
+
 === :Strict equals operator
+	- compares for equality without converting
 
 != :Not Equals operator
 !== :Strict not equals operator
