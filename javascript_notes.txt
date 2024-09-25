@@ -418,6 +418,23 @@ OPERATORS
 && :and operator
 || :OR operator
 
+TERNARY OPERATOR
+================
+- ?
+- acts as a shortened if else statement
+- example:
+	- this if statement:
+		if (true) {
+			'truthy'
+		} else {
+			'falsy'
+		}
+
+	- can be shortened to:
+		true ? 'truthy' : 'falsy'
+
+
+
 
 ELSE IF STATEMENT
 ============
