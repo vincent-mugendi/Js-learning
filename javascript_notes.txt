@@ -362,6 +362,26 @@ USING BOOLEAN
 ==============
 Boolean values are true or False
 
+
+FALSY VALUES
+============
+- These are values in javascript that are evaluated as false
+- They include:
+	- false
+	- 0
+	- ''
+	- undefined (measns dont have a value)
+	- NaN (means Not a Number)
+	- null
+
+TRUTHY VALUES
+=============
+- Values that are evalutaed as true
+- They include:
+	- Any value that is not a falsy value
+
+
+
 IF ELSE STATEMENTS
 ===================
 Used to make decisions in code
