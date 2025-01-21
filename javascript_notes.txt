@@ -1,6 +1,11 @@
 Js
+==
+javascript is a versatile high-level programming language primarily used to create dynamic and interactive content on the web
+
+
 
 NOTE:
+====
 Js is case sensitive
 camelCase is typically used
 Strings are immutable meaning they cannot be altered once they are created
@@ -435,7 +440,6 @@ TERNARY OPERATOR
 
 
 
-
 ELSE IF STATEMENT
 ============
 Example:
@@ -557,4 +561,7 @@ onclick attribute
 - used to define what happens when an element is clicked
 
 
+
+
+[3:35] - javascript tutorial full course
 
