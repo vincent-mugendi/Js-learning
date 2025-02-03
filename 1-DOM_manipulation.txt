@@ -1,0 +1,85 @@
+WHAT IS DOM
+===========
+- Document Object Model
+- It represents the structure of a webpage as a tree of objects, allowing JavaScript to manipulate HTML and CSS dynamically
+
+
+DOM Tree structure
+==================
+The DOM represents an HTML document as a tree-like structure.
+
+Example
+=======
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <h1>Hello</h1>
+    <p>Paragraph</p>
+</body>
+</html>
+
+The DOM tree for this HTML is:
+Document
+ ├── <html>
+ │    ├── <head>
+ │    ├── <body>
+ │         ├── <h1> (Text: "Hello")
+ │         ├── <p> (Text: "Paragraph")
+
+
+
+ACESSING ELEMENTS IN THE DOM
+============================
+
+
+1. USING getElementById()
+=========================
+Finds an element by its id attribute
+
+    Example
+    =======
+    let title = document.getElementById("title")console.log(title.innerText);  // Output: Hello, DOM!
+
+
+2. Using getElementsByClassName()
+================================
+Finds elements by class (returns a collection).
+
+    Example
+    =======
+    let paragraphs = document.getElementsByClassName("description");
+    console.log(paragraphs[0].innerText);  // Output: This is a paragraph.
+
+
+3. Using getElementsByTagName()
+===============================
+- Finds elements by tag name (returns a collection).
+
+    Example
+    =======
+    let allParagraphs = document.getElementsByTagName("p");
+    console.log(allParagraphs.length);  // Output: Number of <p> tags
+
+
+4. Using querySelector() (Recommended)
+=====================================
+- Selects the first matching element.
+
+    Example
+    =======
+    let firstParagraph = document.querySelector(".description");
+    console.log(firstParagraph.innerText);
+
+
+5. Using querySelectorAll()
+===========================
+- Selects all matching elements.
+
+    Example
+    =======
+    - let allParagraphs = document.querySelectorAll("p");
+    console.log(allParagraphs.length);
+
+
+

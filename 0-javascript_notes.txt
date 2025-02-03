@@ -36,6 +36,7 @@ DATA TYPES
 
 5. Symbol
 	Immutable unique value
+	
 
 6. Number
 numbers
