@@ -1,0 +1,152 @@
+EVENT LISTENERS
+===============
+- Allows you to listen and respond to user interactions, such as clicks, key presses, mouse movements and more
+
+
+BASIC SYNTAX
+============
+- The addEventListener() method is used to attach an event listener to an element.
+
+    element.addEventListener(event, function, useCapture);
+
+- element – The HTML element to which the event listener is attached.
+
+- event – The type of event (e.g., "click", "keydown", "mouseover").
+
+- function – The function to execute when the event occurs.
+
+- useCapture (optional) – true for event capturing, false (default) for bubbling.
+
+
+
+2️⃣ Example: Click Event Listener
+==================================
+- Let's attach a click event to a button.
+
+    ✅ HTML:
+    
+    <button id="myButton">Click Me</button>
+    <p id="message"></p>
+
+    ✅ JavaScript:
+    
+    document.getElementById("myButton").addEventListener("click", function () {
+    document.getElementById("message").textContent = "Button Clicked!";
+    });
+
+    ➡️ When the button is clicked, the text inside the <p> element updates.
+
+
+
+3️⃣ Using Named Functions
+=========================
+- Instead of an anonymous function, you can use a named function.
+
+javascript
+Copy
+Edit
+function showMessage() {
+    document.getElementById("message").textContent = "Button Clicked!";
+}
+
+document.getElementById("myButton").addEventListener("click", showMessage);
+This makes the code reusable and more readable.
+
+4️⃣ Event Object (event)
+JavaScript provides an event object (event or e), which contains details about the event.
+
+Example:
+
+javascript
+Copy
+Edit
+document.getElementById("myButton").addEventListener("click", function (event) {
+    console.log(event); // Logs the event object
+});
+Common properties:
+
+event.type – Type of event ("click", "keydown", etc.)
+event.target – The element that triggered the event
+event.clientX, event.clientY – Mouse click coordinates
+5️⃣ Mouse Events
+You can track mouse actions like hovering, entering, and leaving.
+
+javascript
+Copy
+Edit
+const box = document.getElementById("box");
+
+box.addEventListener("mouseover", function () {
+    box.style.backgroundColor = "lightblue";
+});
+
+box.addEventListener("mouseout", function () {
+    box.style.backgroundColor = "";
+});
+✅ HTML:
+html
+Copy
+Edit
+<div id="box" style="width: 100px; height: 100px; background: gray;"></div>
+➡️ When the mouse enters the box, it turns light blue. When it leaves, it resets.
+
+6️⃣ Keyboard Events (keydown, keyup, keypress)
+You can track key presses.
+
+javascript
+Copy
+Edit
+document.addEventListener("keydown", function (event) {
+    console.log("Key pressed:", event.key);
+});
+keydown – Fires when a key is pressed
+keyup – Fires when a key is released
+keypress (deprecated) – Use keydown instead
+7️⃣ Form Input Events
+Detect changes in input fields.
+
+javascript
+Copy
+Edit
+document.getElementById("myInput").addEventListener("input", function (event) {
+    console.log("Input value:", event.target.value);
+});
+✅ HTML:
+html
+Copy
+Edit
+<input type="text" id="myInput" placeholder="Type something">
+➡️ Logs every character typed in the input field.
+
+8️⃣ Removing an Event Listener
+Use removeEventListener() to detach an event.
+
+javascript
+Copy
+Edit
+function sayHello() {
+    console.log("Hello!");
+}
+
+document.getElementById("myButton").addEventListener("click", sayHello);
+
+// Remove the event listener after 5 seconds
+setTimeout(function () {
+    document.getElementById("myButton").removeEventListener("click", sayHello);
+    console.log("Event listener removed");
+}, 5000);
+➡️ After 5 seconds, clicking the button no longer logs "Hello!".
+
+9️⃣ Event Bubbling vs. Capturing
+By default, events propagate upward (bubbling). You can use event delegation to handle multiple elements efficiently.
+
+Example of event delegation:
+
+javascript
+Copy
+Edit
+document.getElementById("parent").addEventListener("click", function (event) {
+    if (event.target.tagName === "BUTTON") {
+        console.log("Button inside parent clicked!");
+    }
+});
