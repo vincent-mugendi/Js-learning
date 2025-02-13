@@ -662,5 +662,8 @@ LOOPS
 		console.log(item);
 	}
 
+
+	
+
 [3:35] - javascript tutorial full course
 
