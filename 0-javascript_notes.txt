@@ -25,6 +25,9 @@ DATA TYPES
 	hasnt been defined
 	like a variable without a value
 
+	e.g 
+		let name;
+
 2. null
 	nothing
 
@@ -63,7 +66,7 @@ Exmple
 
 use let keyword
 Example
-	let my Nmae = "Vincent"
+	let my Name = "Vincent"
 
 use const keyword
 Example
@@ -237,7 +240,9 @@ Use index to modify arrays
 
 ADDING DATA TO AN ARRAY
 =========================
+
 Use push function
+=================
 Example:
 	var colors = ["Red", "Blue", "Orange"];
 	//lets add green to the colors
@@ -265,6 +270,36 @@ Unshift adds an element to the beginning of an array
 Example:
 	var pupils = ["John", "Ann", "Paul", "Peter"];
 	pupils.unshift("Jane"); // adds jane to the front of the array
+
+
+.map() METHODS
+==============
+- Used on arrays, transforms each array element, returns a new array with the modified values
+
+✅ Basic Syntax
+================
+	array.map(function(element, index, array) {
+    	return transformedElement;
+	});
+
+- element – The current element in the array.
+- index (optional) – The index of the current element.
+- array (optional) – The entire array being mapped.
+- Returns a new array with transformed elements.
+
+
+
+
+✅ Example: Doubling Numbers in an Array
+=========================================
+
+	const numbers = [1, 2, 3, 4, 5];
+	const doubled = numbers.map(num => num * 2);
+
+	console.log(doubled); // Output: [2, 4, 6, 8, 10]
+
+✔ Takes each number and multiplies it by 2
+✔ Returns a new array with modified values
 
 ========================================
 
@@ -563,6 +598,69 @@ onclick attribute
 
 
 
+LOOPS
+=====
+- is a structure made of instructions that runs repeatedly as long a certain condition is true
+- When you have to perform a task repeatedly until a condition is met, you use a loop.
+
+	LOOPS IN Js
+	===========
+	1. for loop
+	2. while loop
+	3. do..while loop
+	4. for....in loop
+	5. for...of loop
+
+	for loop
+	========
+	- has:
+		- starting point
+		- condition
+		- increment or Decrement
+		- set of instructions
+
+	SYNTAX
+	======
+
+	for (initialization; conditio) {
+		//set of instructions
+	}
+
+	for (let i = 0; i < 5; i++) {
+		console.log(i)
+	}
+
+	for...in loop
+	=============
+	- Only used when iterating over an object's key or properties
+
+	SYNTAX
+	======
+	let object0 = {
+		key1: "Value 1",
+		key2: "Value 2"
+	}
+
+	for (let key in object0) {
+		//Printing the key and corresponding property/value
+		console.log(key, object0[key]) 
+	}
+
+
+
+	for... of
+	==========
+	- used to loop over iterables
+	- iterables are items that can be looped over; strings, arrays, sets, maps
+	- 
+
+	SYNTAX
+	=======
+	let array0 = ['item1', 'item2', 'item3'];
+
+	for (const item of array0) {
+		console.log(item);
+	}
 
 [3:35] - javascript tutorial full course
 
