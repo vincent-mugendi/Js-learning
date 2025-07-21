@@ -663,7 +663,32 @@ LOOPS
 	}
 
 
-	
+
+
+CLASSES
+=======
+- a blueprint for creating objects
+- define object properties and methods
+- use class keyword
+
+	SYNTAX
+	======
+	class Person {
+		constructor(name, age) {
+			this.name = name;
+			this.age = age;
+		}
+
+		greet() {
+			console.log(`Hi, I'm ${this.name} and I'm ${this.age} years old.`);
+		}
+	}
+
+
+	CREATING OBEJCTS FROM CLASSES
+	=============================
+	const john = new Person("John", 25);
+	john.greet();
 
 [3:35] - javascript tutorial full course
 
