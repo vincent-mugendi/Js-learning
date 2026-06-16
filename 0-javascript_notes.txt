@@ -18,7 +18,6 @@ COMMENTS
 /* This
 multiline comment */
 
-
 DATA TYPES
 ===============
 1. undefined
@@ -77,6 +76,14 @@ Example
 	var can be used within your whole program
 	let can only be used where it is declared
 	const once set cannot be changed
+
+
+SCOPE IN Js
+===========
+=-Think of scope in terms of who can access what
+- A good analogy would be tinted windows, once inside you can see outside but the person outside cannot see inside
+- You cannot access variables declared inside a function, you get reference error "cannot see inside"
+
 
 ASIGNING VALUES
 =================
