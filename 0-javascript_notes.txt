@@ -342,6 +342,8 @@ Example:
 
 	Addition(2, 3); // 5 is logged out
 
+a and b are parameters, 2 and 3 are arguments
+
 
 TYPES OF FUNCTIONS
 ==================
