@@ -699,5 +699,11 @@ CLASSES
 	const john = new Person("John", 25);
 	john.greet();
 
+
+
+PROMISES
+========
+- 
+
 [3:35] - javascript tutorial full course
 
