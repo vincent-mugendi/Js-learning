@@ -700,6 +700,33 @@ CLASSES
 	john.greet();
 
 
+EXECUTION CONTEXT
+=================
+- its the space js creates to run code before any line of code is executed.
+
+	TYPES OF EXECUTION CONTEXT
+	==========================
+	1. Global execution context
+	- created when js program starts
+
+	2. Function execution context
+	- created when a function is called
+
+
+	Global execution context
+	======================
+	- Has 2 phases:
+		- preparation phase
+		- execution phase
+
+	preparation phase
+	=================
+	- the var names etc are created space for but not executed
+
+	exectuion phase
+	===============
+	- the code is executed
+
 
 PROMISES
 ========
