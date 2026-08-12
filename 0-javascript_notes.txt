@@ -728,6 +728,76 @@ EXECUTION CONTEXT
 	- the code is executed
 
 
+
+HOISTING MECHANICS
+==================
+- what happens at declarations during creation phase of an execution context
+
+	Two phases
+	==============
+	- For an execution context, think:
+
+		Creation phase
+ 		   ↓
+		prepare bindings
+
+		Execution phase
+    		↓
+		execute statements / assignments
+
+	1. Creation phase
+	=================
+	— different declarations behave differently
+	
+	var:
+
+		var x = 10;
+
+		Conceptually: x → undefined
+
+	The assignment x = 10 happens later during execution.
+
+	let / const:
+
+		let x = 10;
+
+		Conceptually: x → uninitialized
+
+	The binding exists, but accessing it before initialization causes a ReferenceError
+	NB: That period is the Temporal Dead Zone (TDZ).
+
+	Function declaration:
+		function foo() {}
+
+		Conceptually: foo → actual function
+
+	So the function can be called before its declaration appears in the source.
+
+
+	2. Execution phase
+	===================
+	Now the code actually runs:
+
+		var x = 10;
+
+		The declaration was handled during creation, but:
+
+			x = 10
+
+		happens during execution.
+
+	NB: A binding is prepared during creation, and its value can be changed during execution.
+
+		- That's why this:
+
+			function foo() {}
+			foo = "hello";
+			foo();
+
+		- results in a TypeError: by the time foo() executes, the binding contains "hello", not the function.
+
+
+
 PROMISES
 ========
 - 
