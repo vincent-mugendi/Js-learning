@@ -806,7 +806,14 @@ lexical = hierachy created when code is written/NESTED
 	NOTE
 	- A nested function's lexical environment has an outer-environment reference to the environment where it was defined.
 
-
+	- Scope → where an identifier can be accessed
+	- Lexical scope → determined by where code is written/nested.
+	- Outer environment reference → how one environment points outward.
+	- Scope chain → inner → outer → global.
+	- Shadowing → the nearest matching binding wins.
+	- Lexical vs call-site → who calls a function doesn't change its lexical scope.
+	- let/const + TDZ → binding exists, but isn't initialized yet → ReferenceError.
+	- var → initialized to undefined.
 
 PROMISES
 ========
