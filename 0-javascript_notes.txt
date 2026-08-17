@@ -797,6 +797,16 @@ HOISTING MECHANICS
 		- results in a TypeError: by the time foo() executes, the binding contains "hello", not the function.
 
 
+SCOPE CHAIN & LEXICAL ENVIRONMENT
+=================================
+scope = where can i access something
+lexical = hierachy created when code is written/NESTED
+
+
+	NOTE
+	- A nested function's lexical environment has an outer-environment reference to the environment where it was defined.
+
+
 
 PROMISES
 ========
