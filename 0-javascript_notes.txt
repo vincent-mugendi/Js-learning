@@ -815,6 +815,11 @@ lexical = hierachy created when code is written/NESTED
 	- let/const + TDZ → binding exists, but isn't initialized yet → ReferenceError.
 	- var → initialized to undefined.
 
+
+CLOSURES
+========
+- An evironment where a function that retains access to its lexical environment
+
 PROMISES
 ========
 - 
