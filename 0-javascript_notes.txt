@@ -819,6 +819,29 @@ lexical = hierachy created when code is written/NESTED
 CLOSURES
 ========
 - An evironment where a function that retains access to its lexical environment
+- 
+
+`this` KEYWORD
+==============
+- this is like a pointer finger, a referencor ponting to an object
+- the object it points is determined by where it was called and how it was called
+
+	global space
+	============
+	in global space this points to the global object, dont forget in browsers the global object is the window object
+
+	objects
+	=======
+	when called inside regular methods inside objects it points to that object
+
+	regular functions
+	=================
+	- inside regular functions this points to the global object
+
+	arrow function
+	===============
+	- inside arrow functions it points to the next object in that functions lexical environment since this doesnt have its own this binding
+	
 
 PROMISES
 ========
