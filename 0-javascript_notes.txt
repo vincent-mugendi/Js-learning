@@ -819,7 +819,9 @@ lexical = hierachy created when code is written/NESTED
 CLOSURES
 ========
 - An evironment where a function that retains access to its lexical environment
-- 
+- A closure is a function together with the lexical environment it needs to access
+
+
 
 `this` KEYWORD
 ==============
@@ -841,7 +843,7 @@ CLOSURES
 	arrow function
 	===============
 	- inside arrow functions it points to the next object in that functions lexical environment since this doesnt have its own this binding
-	
+
 
 PROMISES
 ========
