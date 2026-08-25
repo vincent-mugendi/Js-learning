@@ -851,6 +851,13 @@ IIFE & Block Scope
 IIFE - Immediately Invocable Function Expression
 
 
+Garbage Collection & Memory Leaks
+=================================
+- Garbage Collection is the process of identifying and clearing memory from elements that are no longer reachable
+- An element is reachable if it have active references to live or root
+- Memory leaks happen when a reference to an element is active but the program doesnt require the element anymore to run
+
+
 PROMISES
 ========
 - 
