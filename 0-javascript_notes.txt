@@ -858,6 +858,26 @@ Garbage Collection & Memory Leaks
 - Memory leaks happen when a reference to an element is active but the program doesnt require the element anymore to run
 
 
+THE EVENT LOOP
+==============
+- It coordinates when queued asynchronous callbacks get a chance to run.
+- It checks whether the call stack is free and when appropriate moves queued work onto it.
+
+
+CONCURENCY MODEL
+================
+- How javascript manages multiple pieces of work that are in progress without executing javascript code simultaneously on the same thread.
+
+	Mental model:
+	==============
+	- JavaScript can have multiple things waiting/in progress, while one piece of JS executes at a time.
+
+
+SINGLE-THREADED EXECUTION ARCHITECTURE
+======================================
+- javascript executes synchromous code on one call stack ome operation at a time.
+
+
 PROMISES
 ========
 - 
