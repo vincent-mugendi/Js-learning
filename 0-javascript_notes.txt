@@ -878,6 +878,26 @@ SINGLE-THREADED EXECUTION ARCHITECTURE
 - javascript executes synchromous code on one call stack ome operation at a time.
 
 
+
+TASKS/MACRO-TASKS
+=================
+- A task is a unit of work that the runtime can execute after the current work finishes
+- ussually queued in the task queue
+	examples
+	========
+	setTimeout(...)
+    setInterval(...)
+
+MICROTASKS
+==========
+- Is a higher -priority piece of deferred work that is processed during a microtask checkpoint.
+- queued in the micro-task queue
+- runs after synchronous code 
+	example
+	=======
+	- PROMISES
+
+
 PROMISES
 ========
 - 
